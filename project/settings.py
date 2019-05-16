@@ -106,9 +106,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
 # todo 编译语言
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'
 # todo 设置时区
-TIME_ZONE = 'Asian,shanghai'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
