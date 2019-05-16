@@ -7,3 +7,5 @@ from django.shortcuts import render
 def index(request):
     #返回内容
     return HttpResponse('django,你好')
+
+

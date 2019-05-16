@@ -19,5 +19,6 @@ from django.contrib import admin
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #设置子路由路径
-    url(r'^user/', include('user.urls'))
+    url(r'^user/', include('user.urls')),
+    url(r'^goods/', include('goods.urls'))
 ]
