@@ -108,7 +108,7 @@ AUTH_PASSWORD_VALIDATORS = [
 # todo 编译语言
 LANGUAGE_CODE = 'en-us'
 # todo 设置时区
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asian,shanghai'
 
 USE_I18N = True
 
