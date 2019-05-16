@@ -15,8 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url,include
 from django.contrib import admin
-
+#由总路由寻找子路由方式
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    #设置子路由路径
     url(r'^user/', include('user.urls'))
 ]
