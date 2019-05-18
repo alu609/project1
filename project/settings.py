@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'querybody.apps.QuerybodyConfig',
     'queryheader.apps.QueryheaderConfig',
     'response.apps.ResponseConfig',
-    'jsonresponse.apps.JsonresponseConfig'
+    'jsonresponse.apps.JsonresponseConfig',
+    'djangoredis.apps.DjangoredisConfig'
 
 ]
 

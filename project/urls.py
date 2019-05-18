@@ -30,5 +30,6 @@ urlpatterns = [
     url(r'^queryheader/',include('queryheader.urls')),
     url(r'^response/',include('response.urls')),
     url(r'^jsonresponse/',include('jsonresponse.urls')),
+    url(r'^djangoredis/',include('djangoredis.urls'))
 
 ]
