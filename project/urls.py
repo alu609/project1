@@ -20,5 +20,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     #设置子路由路径
     url(r'^user/', include('user.urls')),
-    url(r'^goods/', include('goods.urls',namespace='goods'))
+    url(r'^goods/', include('goods.urls')),
+    url(r'^parameter/', include('parameter.urls'))
+
 ]
