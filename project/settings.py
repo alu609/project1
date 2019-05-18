@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'user.apps.UserConfig',
     'goods.apps.GoodsConfig',
-    'parameter.apps.ParameterConfig'
+    'parameter.apps.ParameterConfig',
+    'dcookie.apps.DcookieConfig'
 ]
 
 MIDDLEWARE = [

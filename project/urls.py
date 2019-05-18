@@ -21,6 +21,7 @@ urlpatterns = [
     #设置子路由路径
     url(r'^user/', include('user.urls')),
     url(r'^goods/', include('goods.urls')),
-    url(r'^parameter/', include('parameter.urls'))
+    url(r'^parameter/', include('parameter.urls')),
+    url(r'^dcookie/',include('dcookie.urls'))
 
 ]
