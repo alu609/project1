@@ -26,6 +26,7 @@ urlpatterns = [
     url(r'^arguments/',include('arguments.urls')),
     url(r'^querydict/',include('querydict.urls')),
     url(r'^queryobject/',include('queryobject.urls')),
-    url(r'^querybody/',include('querybody.urls'))
+    url(r'^querybody/',include('querybody.urls')),
+    url(r'^queryheader/',include('queryheader.urls')),
 
 ]

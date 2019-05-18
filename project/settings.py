@@ -45,7 +45,8 @@ INSTALLED_APPS = [
     'arguments.apps.ArgumentsConfig',
     'querydict.apps.QuerydictConfig',
     'queryobject.apps.QueryobjectConfig',
-    'querybody.apps.QuerybodyConfig'
+    'querybody.apps.QuerybodyConfig',
+    'queryheader.apps.QueryheaderConfig'
 
 ]
 
