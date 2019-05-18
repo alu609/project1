@@ -43,14 +43,16 @@ INSTALLED_APPS = [
     'parameter.apps.ParameterConfig',
     'dcookie.apps.DcookieConfig',
     'arguments.apps.ArgumentsConfig',
-    'querydict.apps.QuerydictConfig'
+    'querydict.apps.QuerydictConfig',
+    'queryobject.apps.QueryobjectConfig'
+
 ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    #'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
