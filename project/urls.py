@@ -22,6 +22,8 @@ urlpatterns = [
     url(r'^user/', include('user.urls')),
     url(r'^goods/', include('goods.urls')),
     url(r'^parameter/', include('parameter.urls')),
-    url(r'^dcookie/',include('dcookie.urls'))
+    url(r'^dcookie/',include('dcookie.urls')),
+    url(r'^arguments/',include('arguments.urls')),
+    url(r'^querydict/',include('querydict.urls')),
 
 ]

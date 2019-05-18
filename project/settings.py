@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'user.apps.UserConfig',
     'goods.apps.GoodsConfig',
     'parameter.apps.ParameterConfig',
-    'dcookie.apps.DcookieConfig'
+    'dcookie.apps.DcookieConfig',
+    'arguments.apps.ArgumentsConfig',
+    'querydict.apps.QuerydictConfig'
 ]
 
 MIDDLEWARE = [
