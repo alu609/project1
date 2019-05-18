@@ -132,3 +132,18 @@ USE_TZ = True
 # todo 静态文件路径
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
+
+#配置session-redis数据库
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        #默认数据库为1，即第二个数据库
+        "LOCATION": "redis://127.0.0.1:6379/1",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
+SESSION_ENGINE = "django.contrib.sessions.backends.cache"
+SESSION_CACHE_ALIAS = "default"
