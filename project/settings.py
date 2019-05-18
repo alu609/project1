@@ -44,7 +44,8 @@ INSTALLED_APPS = [
     'dcookie.apps.DcookieConfig',
     'arguments.apps.ArgumentsConfig',
     'querydict.apps.QuerydictConfig',
-    'queryobject.apps.QueryobjectConfig'
+    'queryobject.apps.QueryobjectConfig',
+    'querybody.apps.QuerybodyConfig'
 
 ]
 
