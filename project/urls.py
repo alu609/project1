@@ -28,5 +28,6 @@ urlpatterns = [
     url(r'^queryobject/',include('queryobject.urls')),
     url(r'^querybody/',include('querybody.urls')),
     url(r'^queryheader/',include('queryheader.urls')),
+    url(r'^response/',include('response.urls')),
 
 ]
